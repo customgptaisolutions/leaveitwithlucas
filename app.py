@@ -45,4 +45,4 @@ Reply as Lucas would: friendly, clear, helpful, and never robotic. If something 
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=port)
